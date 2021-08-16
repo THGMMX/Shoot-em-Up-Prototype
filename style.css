@@ -1,67 +1,14 @@
 * {
-    margin:  0;
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-  }
-  
-  body {
-    font-size: 24px;
-  }
-  
-  #viewport {
-    background: #020408;
-    display: block;
-    width: 100%;
-    height: 100%;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-  }
-  
-  .state-ui-container {
+}
+
+body {
     display: flex;
-    flex-direction: row;
-    position: absolute;
-    justify-content: left;
-    align-items: left;
-  }
-  
-  .ui-text {
-    user-select: none;
-    font-family: arial;
-    font-size: 1em;
-    font-weight: bold;
-    font-variant-numeric: tabular-nums;
-    margin: 10px;
-    color: #e4e4e4;
-    text-shadow: 0 2px 2px rgba(125,0,0,.51),
-      0 0 10px rgba(255,0,255,1),
-      0 0 10px rgba(255,0,255,1); 
-    text-align: left;
-  }
-  
-  #score {
-    left: 0;
-  }
-  
-  #lives {
-    right: 0;
-  }
-  
-  .ui-text--heading {
-    font-size: 4em;
-  }
-  
-  
-  
-  .state-ui-container {
-    width: 100%;
-    display: none;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-  }
-  
-  .console {
-    align-self: center;
-  }
-  .banner {
-    align-self: flex-start;
-  }
+    background-color: rgb(46, 44, 44);
+}
+
